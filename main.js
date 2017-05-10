@@ -35,7 +35,7 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 
             code: "var script = document.createElement('link');" +
                 "script.setAttribute('rel', 'stylesheet');" +
-                "script.setAttribute('href', 'main.css?" + _nocache +"');" +
+                "script.setAttribute('href', 'http://localhost:8081/main.css?" + _nocache +"');" +
                 "document.head.appendChild(script);"
         });
     });
